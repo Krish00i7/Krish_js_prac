@@ -1,0 +1,13 @@
+<input type="text" id="input"  onkeyup="RetrivedValue()">
+<h1 id="result"></h1>
+
+<script>
+    var Value = document.getElementById("input")
+    var result = document.getElementById("result")
+
+    function RetrivedValue()
+    {
+       result.textContent = Value.value
+
+    }
+</script>
